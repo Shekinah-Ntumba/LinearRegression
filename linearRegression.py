@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 data = pd.read_csv('Nairobi)Office_Price_Ex(1).csv')
 X = data['SIZE'].values
 y = data['PRICE'].values
-
+#
 # Mean Squared Error function
 def mean_squared_error(y_true, y_pred):
     return np.mean((y_true - y_pred) ** 2)
